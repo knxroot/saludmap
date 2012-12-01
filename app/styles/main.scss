@@ -355,6 +355,7 @@ $ancho_local_title: 312px;
 #footer{
     background-color: #dedede;
     padding: 5px;
+    margin-top: 20px;
 }
 .menu_footer{
   @include delimited-list("/");
