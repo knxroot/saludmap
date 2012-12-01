@@ -1,0 +1,1013 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"a",
+				"azulgradiente1"
+			],
+			[
+				"azul",
+				"azulgradiente1"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"ser",
+				"services_box"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"div",
+				"DIV	Tag"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"IP",
+				"IP_LOCAL"
+			],
+			[
+				"get",
+				"getNombre"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"na",
+				"naranja_nice"
+			],
+			[
+				"img",
+				"img"
+			],
+			[
+				"fle",
+				"flecha"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"tabl",
+				"table-row"
+			],
+			[
+				"blo",
+				"inline-block"
+			],
+			[
+				"st",
+				"list-style"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"f",
+				"font-weight"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Package Control Messages\n========================\n\nZenCoding:\n---------\n\n  This Zen Coding plugin is outdated and will never receive\n  any updates in future. In two weeks the repo will be unpublished.\n  \n  Consider switching to Emmet -- a re-branded Zen Coding project \n  packed with new awesome features:\n  \n  * Dynamic CSS abbreviations, automatic vendor prefixes and gradient generator.\n  * Better Tab key handler.\n  * \"Lorem Ipsum\" generator.\n  * Implicit tag names.\n  * JavaScript extensions support.\n  * New ^ operator.\n  * Various fixes and improvements.\n  \n  The new plugin is available in Package Control: just run \n  \"Install Package\" command and install \"Emmet\" plugin. Please remove \n  or disable current Zen Coding plugin in order to make things work right. \n  \n  Extensive documentation about all Emmet features is available at http://docs.emmet.io\n  \nul.ninjacode>li*5\n",
+			"settings":
+			{
+				"buffer_size": 884,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/home/knx/.config/sublime-text-2/Packages/ZenCoding/zen-coding.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 1226,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n\n<div class=\"modal hide fade\" id=\"modal_ss\" style=\"width:800px;margin-left:50%; left:-400px;\">\n  <div class=\"modal-body\">\n    <img src=\"\">\n  </div>\n  <div class=\"modal-footer\">\n    <a href=\"#\" class=\"btn\" data-dismiss=\"modal\" aria-hidden=\"true\">Fechar</a>\n  </div>\n</div>",
+			"settings":
+			{
+				"buffer_size": 272,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/dropkick.js",
+			"settings":
+			{
+				"buffer_size": 10884,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 63,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/dropkick.css",
+			"settings":
+			{
+				"buffer_size": 6373,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "              <select name=\"select_nec\" class=\"select_nec\">\n                <option>Baby Bear...</option>\n                <option>Your profile</option>\n                <option>Your account</option>\n                <option>Notifications</option>\n                <option>Sign Out</option>\n              </select>",
+			"settings":
+			{
+				"buffer_size": 310,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/compass_twitter_bootstrap/_buttons.scss",
+			"settings":
+			{
+				"buffer_size": 4874,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\n    <head>\n        <meta charset=\"utf-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n        <title></title>\n        <meta name=\"description\" content=\"\">\n        <meta name=\"viewport\" content=\"width=device-width\">\n\n        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->\n\n        \n        <link rel=\"stylesheet\" href=\"styles/main.css\">\n\n\n        <script src=\"scripts/vendor/modernizr.min.js\"></script>\n        <script src=\"scripts/vendor/jquery.min.js\"></script> \n        <script src=\"scripts/app.js\"></script>\n    </head>\n    <body>\n\n    <div>\n      <header id=\"cabecera\" class=\"g_azul\">\n        <div class=\"container\">\n          <form class=\"form-signin\">\n            <div>\n              <label for=\"user\">Usuario</label>\n              <input name=\"user\" type=\"text\" class=\"input-medium\"></div>\n            <div>\n              <label for=\"user\">Contraseña</label>\n              <input name=\"pass\" type=\"password\" class=\"input-medium\"></div>\n          </form>\n          <div class=\"cuadrado_circulos\"></div>\n        </div>\n      </header>\n\n      <div class=\"container_menu\">\n        <div class=\"container\">\n          <div class=\"btn-group right boton_menu\">\n            <button class=\"btn btn-large\">Santiago</button>\n            <button class=\"btn btn-large dropdown-toggle\" data-toggle=\"dropdown\">\n              <span class=\"caret\"></span>\n            </button>\n            <ul class=\"dropdown-menu\">\n              <!-- links menu -->\n              <li><a target=\"_blank\" >Viña del mar</a></li>\n              <li><a target=\"_blank\" >Temuco</a></li>\n            </ul>\n          </div>\n        </div>\n      </div>\n      <div class=\"g_azul bazul_12\"></div>\n    </div>\n\n\n    <div class=\"container\" style=\"margin-top:20px\">\n      <div class=\"row\">\n        <div class=\"span12 bplomo necesidad_box\">\n            <div class=\"ch\">\n              <h1>¿Qué Necesitas?</h1>\n\n              <div class=\"btn-group right boton_menu select_nec\">\n                <button class=\"btn btn-info btn-large\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comida&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>\n                <button class=\"btn btn-info btn-large dropdown-toggle\" data-toggle=\"dropdown\">\n                  <span class=\"caret\"></span>\n                </button>\n                <ul class=\"dropdown-menu\">\n                  <!-- links menu -->\n                  <li><a target=\"_blank\" >Cerveza</a></li>\n                  <li><a target=\"_blank\" >Carrete</a></li>\n                </ul>\n              </div>\n\n            </div>\n        </div><!-- /necesidad_box -->\n      </div>\n      <div class=\"row\">\n        <div class=\"span4\">\n        <!--Sidebar content-->\n          <div id=\"livebox\" class=\"bplomo\">\n            <section>\n              <div class=\"triangulo\"></div>\n              <h3 class=\"g_azul blue_box ch\">En este momento</h3>\n              <div id=\"stream\">\n                <!-- TWITT START -->\n                <article class=\"item comment clearfix\">\n                  <div class=\"icon_area\">\n                    <a href=\"/accounts/50006\" class=\"user_icon\" title=\"biobio\">\n                      <img width=\"50\" height=\"50\" src=\"images/biobio_ico.png\" alt=\"biobio\">\n                    </a>\n                  </div>\n                  <p class=\"content\">\n                    <a href=\"/accounts/50006\" class=\"user_link\" title=\"biobio\">biobio</a> [VIDEO] Sismo de poca profundidad se percibe entre las regiones de O'Higgins y de La Araucanía <a ref=\"http://rbb.cl/24yo\">rbb.cl/24yo</a> <br><span class=\"meta\"><abbr class=\"timeago\" title=\"blablabla\" pubdate=\"\">hace 1 minuto</abbr>\n                    </span> \n                  </p>\n                </article>\n                <!-- TWITT END -->\n                <!-- TWITT START -->\n                <article class=\"item comment clearfix\">\n                  <div class=\"icon_area\">\n                    <a href=\"/accounts/50006\" class=\"user_icon\" title=\"biobio\">\n                      <img width=\"50\" height=\"50\" src=\"images/biobio_ico.png\" alt=\"biobio\">\n                    </a>\n                  </div>\n                  <p class=\"content\">\n                    <a href=\"/accounts/50006\" class=\"user_link\" title=\"biobio\">biobio</a> [ACTUALIZADO] Congestión vehicular tras sismo de Concepción genera colisiones por alcance <a ref=\"http://rbb.cl/24yr\">rbb.cl/24yr</a><br><span class=\"meta\"><abbr class=\"timeago\" title=\"blablabla\" pubdate=\"\">hace 1 minuto</abbr>\n                    </span> \n                  </p>\n                </article>\n                <!-- TWITT END -->\n                <!-- TWITT START -->\n                <article class=\"item comment clearfix\">\n                  <div class=\"icon_area\">\n                    <a href=\"/accounts/50006\" class=\"user_icon\" title=\"elmostrador\">\n                      <img width=\"50\" height=\"50\" src=\"images/elmostrador_ico.png\" alt=\"elmostrador\">\n                    </a>\n                  </div>\n                  <p class=\"content\">\n                    <a href=\"/accounts/50006\" class=\"user_link\" title=\"elmostrador\">elmostrador</a> Alvear  (DC) destaca aprobación del proyecto que crea los Tribunales Ambientales <a ref=\"http://elmo.st/wzBb2V\">elmo.st/wzBb2V</a><br><span class=\"meta\"><abbr class=\"timeago\" title=\"blablabla\" pubdate=\"\">hace 1 minuto</abbr>\n                    </span> \n                  </p>\n                </article>\n                <!-- TWITT END -->                \n                <!-- TWITT START -->\n                <article class=\"item comment clearfix\">\n                  <div class=\"icon_area\">\n                    <a href=\"/accounts/50006\" class=\"user_icon\" title=\"Entretencion\">\n                      <img width=\"50\" height=\"50\" src=\"images/terra_ico.png\" alt=\"Entretencion\">\n                    </a>\n                  </div>\n                  <p class=\"content\">\n                    <a href=\"/accounts/50006\" class=\"user_link\" title=\"Entretencion\">Entretencion</a> [MÚSICA] Ex marido de Britney Spears es hospitalizado por problema cardíaco  <a ref=\"http://bit.ly/zrw8li\">bit.ly/zrw8li</a><br><span class=\"meta\"><abbr class=\"timeago\" title=\"blablabla\" pubdate=\"\">hace 1 minuto</abbr>\n                    </span> \n                  </p>\n                </article>\n                <!-- TWITT END -->        \n                <!-- TWITT START -->\n                <article class=\"item comment clearfix\">\n                  <div class=\"icon_area\">\n                    <a href=\"/accounts/50006\" class=\"user_icon\" title=\"elmostrador\">\n                      <img width=\"50\" height=\"50\" src=\"images/elmostrador_ico.png\" alt=\"elmostrador\">\n                    </a>\n                  </div>\n                  <p class=\"content\">\n                    <a href=\"/accounts/50006\" class=\"user_link\" title=\"elmostrador\">elmostrador</a> Alvear  (DC) destaca aprobación del proyecto que crea los Tribunales Ambientales <a ref=\"http://elmo.st/wzBb2V\">elmo.st/wzBb2V</a><br><span class=\"meta\"><abbr class=\"timeago\" title=\"blablabla\" pubdate=\"\">hace 1 minuto</abbr>\n                    </span> \n                  </p>\n                </article>\n                <!-- TWITT END -->                \n                <!-- TWITT START -->\n                <article class=\"item comment clearfix\">\n                  <div class=\"icon_area\">\n                    <a href=\"/accounts/50006\" class=\"user_icon\" title=\"Entretencion\">\n                      <img width=\"50\" height=\"50\" src=\"images/terra_ico.png\" alt=\"Entretencion\">\n                    </a>\n                  </div>\n                  <p class=\"content\">\n                    <a href=\"/accounts/50006\" class=\"user_link\" title=\"Entretencion\">Entretencion</a> [MÚSICA] Ex marido de Britney Spears es hospitalizado por problema cardíaco  <a ref=\"http://bit.ly/zrw8li\">bit.ly/zrw8li</a><br><span class=\"meta\"><abbr class=\"timeago\" title=\"blablabla\" pubdate=\"\">hace 1 minuto</abbr>\n                    </span> \n                  </p>\n                </article>\n                <!-- TWITT END -->                             \n              </div>\n            <section> \n          </div>\n          \n          <div id=\"destacadosbox\" class=\"bplomo\">\n            <section>\n              <div class=\"triangulo\"></div>\n              <h3 class=\"g_azul blue_box ch\">Destacados</h3>\n                <div id=\"destacados\">\n                  <!-- TWITT START -->\n                  <article class=\"item comment clearfix\">\n                    <div class=\"icon_area\">\n                      <a href=\"/accounts/50006\" class=\"user_icon\" title=\"TEDx\">\n                        <img width=\"135\" height=\"100\" src=\"images/imagen1.png\" alt=\"TEDx\">\n                      </a>\n                    </div>\n                    <div class=\"content\">\n                      <a href=\"/destacado/rolls\" class=\"user_link\" title=\"Rolls\">Rolls</a>\n                      <p>\n                        Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr\n                      </p>\n                    </div>\n                  </article>\n                  <!-- TWITT END -->\n                  <!-- TWITT START -->\n                  <article class=\"item comment clearfix\">\n                    <div class=\"icon_area\">\n                      <a href=\"/accounts/50006\" class=\"user_icon\" title=\"TEDx\">\n                        <img width=\"135\" height=\"100\" src=\"images/imagen2.png\" alt=\"TEDx\">\n                      </a>\n                    </div>\n                    <div class=\"content\">\n                      <a href=\"/destacado/rolls\" class=\"user_link\" title=\"Rolls\">Cubic Rolls</a>\n                      <p>\n                        Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr\n                      </p>\n                    </div>\n                  </article>\n                  <!-- TWITT END -->                             \n                </div>\n            <section>\n          </div>          \n        </div>\n        \n\n        <div class=\"span8\">\n        <!--Body content-->\n          <div class=\"localdata\">            \n            <img src=\"images/mizo_logo.png\" alt=\"Local Logo\" class=\"local_logo\">\n            <div class=\"relleno_blanco\">\n              <div class=\"services_box\">\n                <div class=\"services_txt_box\">\n                 <svg style=\"enable-background:new 0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\" xml:space=\"preserve\" height=\"13px\" width=\"13px\" version=\"1.1\" y=\"0px\" x=\"0px\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 32 32\">\n                   <g fill=\"#666\">\n                     <circle cx=\"20\" r=\"4\" cy=\"20\"/>\n                     <path d=\"m28 8l-3.3-6.6c-1-0.83-1-1.4-2-1.4h-6c-0.89 0-1.6 0.58-1.9 1.4l-3 6.6h-8c-2.2 0-4 1.8-4 4v20h32v-20c0-2.2-2-4-4-4zm-22 8c-1.1 0-2-0.9-2-2s0.9-2 2-2 2 0.9 2 2-0.9 2-2 2zm14 12c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-4 8-8 8z\"/>\n                   </g>\n                 </svg>&nbsp;Galería\n                </div>\n                <div class=\"services_txt_box\">\n                 <svg style=\"enable-background:new 0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\" xml:space=\"preserve\" height=\"13px\" width=\"13px\" version=\"1.1\" y=\"0px\" x=\"0px\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 32 32\">\n                   <polygon points=\"22 20 32 12 20 12 16 0 12 12 0 12 9.9 20 6 32 16 24 26 32\" fill=\"#666\"/>\n                 </svg>&nbsp;Promoción\n                </div>\n                <div class=\"services_txt_box\">\n                 <svg style=\"enable-background:new 0 0 20 32\" xmlns=\"http://www.w3.org/2000/svg\" xml:space=\"preserve\" height=\"13px\" width=\"8px\" version=\"1.1\" y=\"0px\" x=\"0px\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 20 32\">\n                   <path d=\"m17 2.9c-3.9-3.9-10-3.9-14 0-3.9 3.9-3.9 10 0 14-0.1 0 7 7 7 15 0-8 7.1-15 7.1-15 4-4 4-10 0-14zm-7 11c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-2 4-4 4z\" fill=\"#666\"/>\n                 </svg>&nbsp;&nbsp;Ubicación\n                </div>\n              </div>\n              <div class=\"local_title\">\n                <div class=\"triangulo\"></div>\n                <h3 class=\"g_azul blue_box ch\">Local</h3>\n              </div>\n            </div>\n          </div>\n          \n          <section>\n            <article class=\"local_descripcion\">\n              <h4>MIXO sushi & Bar / Información del Local</h4>\n              <img src=\"images/visa_wifi_nofum_est.png\" alt=\"Visa, Wifi, No fumadores, Estacionamiento\" />\n              <p>\n                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a magna arcu. Aliquam sit amet egestas magna. Morbi ornare interdum sapien, ut sagittis nisl lobortis non. Sed posuere magna id tellus eleifend ultrices. Pellentesque sit amet congue nulla. Aliquam sit amet felis ut magna tempor tempus id vel ante. Maecenas aliquet nisi eget enim gravida non posuere ante ullamcorper.\n\n                Aliquam vitae bibendum sapien. Morbi feugiat purus sed lorem congue laoreet. Cras fermentum nibh vel neque sagittis varius. In hac habitasse platea dictumst. Curabitur eget justo diam. Etiam vestibulum fringilla ante non ornare. Fusce ut arcu dolor, dictum commodo arcu. Nunc mattis ultrices ipsum, eu pellentesque nulla dictum in. Integer elit ipsum, viverra quis gravida a, imperdiet imperdiet justo.\n\n                Suspendisse vitae odio id ligula placerat porta in a sem. Curabitur at tellus et justo rutrum tincidunt nec sit amet arcu. Integer diam mauris, luctus sed tincidunt vitae, scelerisque quis nisi. In tellus tellus, consectetur quis convallis nec, eleifend ac sapien. Nullam in velit nec mi ullamcorper feugiat. Donec venenatis felis sed nibh scelerisque ut ullamcorper massa gravida. Etiam venenatis orci neque. Praesent imperdiet condimentum nisi eget porttitor. Pellentesque dignissim pretium dignissim.\n\n                Proin sit amet cursus velit. Suspendisse potenti. Nam pretium, lorem ut hendrerit eleifend, eros turpis bibendum risus, id ornare urna purus non libero. Donec facilisis tincidunt sem, nec elementum nibh rutrum ut. Sed est odio, interdum ut pellentesque eget, mattis at felis. In sed suscipit leo. Pellentesque vitae ligula leo, mollis sagittis felis. Nam mollis luctus ante, eget adipiscing diam hendrerit eu. Nam magna tortor, gravida ac bibendum eget, adipiscing sit amet nibh. Quisque id odio et justo auctor aliquet in imperdiet velit. Vivamus et diam et odio euismod mollis dapibus eget leo. Integer interdum venenatis consectetur. In tempus iaculis eleifend. Aenean enim purus, fringilla ac scelerisque in, interdum non nunc. Integer suscipit felis id eros ultricies rhoncus sagittis lorem euismod.\n              </p>\n            </article>\n<div class=\"row-fluid\">\n  <div class=\"span12\">\n            <div class=\"row-fluid\">\n                <ul class=\"thumbnails\">\n\n                  <li class=\"span2\">\n                    <a class=\"thumbnail\" data-toggle=\"modal\" href=\"#myThumbnailModal\">\n                      <img src=\"http://placehold.it/75x75\" alt=\"http://placehold.it/800x600\" />\n                    </a>\n                  </li>\n                  <li class=\"span2\">\n                    <a class=\"thumbnail\" data-toggle=\"modal\" href=\"#myThumbnailModal\">\n                      <img src=\"http://placehold.it/75x75\" alt=\"http://placehold.it/800x600\" />\n                    </a>\n                  </li>\n                  <li class=\"span2\">\n                    <a class=\"thumbnail\" data-toggle=\"modal\" href=\"#myThumbnailModal\">\n                      <img src=\"http://placehold.it/75x75\" alt=\"http://placehold.it/800x600\" />\n                    </a>\n                  </li>\n                  <li class=\"span2\">\n                    <a class=\"thumbnail\" data-toggle=\"modal\" href=\"#myThumbnailModal\">\n                      <img src=\"http://placehold.it/75x75\" alt=\"http://placehold.it/800x600\" />\n                    </a>\n                  </li>\n                  <li class=\"span2\">\n                    <a class=\"thumbnail\" data-toggle=\"modal\" href=\"#myThumbnailModal\">\n                      <img src=\"http://placehold.it/75x75\" alt=\"http://placehold.it/800x600\" />\n                    </a>\n                  </li>\n                  <li class=\"span2\">\n                    <a class=\"thumbnail\" data-toggle=\"modal\" href=\"#myThumbnailModal\">\n                      <img src=\"http://placehold.it/75x75\" alt=\"http://placehold.it/800x600\" />\n                    </a>\n                  </li>\n\n                  <li class=\"span2\" style=\"margin-left: -2px;\">\n                    <a class=\"thumbnail\" data-toggle=\"modal\" href=\"#myThumbnailModal\">\n                      <img src=\"http://placehold.it/75x75\" alt=\"http://placehold.it/800x600\" />\n                    </a>\n                  </li>\n                  <li class=\"span2\">\n                    <a class=\"thumbnail\" data-toggle=\"modal\" href=\"#myThumbnailModal\">\n                      <img src=\"http://placehold.it/75x75\" alt=\"http://placehold.it/800x600\" />\n                    </a>\n                  </li>\n                  <li class=\"span2\">\n                    <a class=\"thumbnail\" data-toggle=\"modal\" href=\"#myThumbnailModal\">\n                      <img src=\"http://placehold.it/75x75\" alt=\"http://placehold.it/800x600\" />\n                    </a>\n                  </li>\n                  <li class=\"span2\">\n                    <a class=\"thumbnail\" data-toggle=\"modal\" href=\"#myThumbnailModal\">\n                      <img src=\"http://placehold.it/75x75\" alt=\"http://placehold.it/800x600\" />\n                    </a>\n                  </li>\n                  <li class=\"span2\">\n                    <a class=\"thumbnail\" data-toggle=\"modal\" href=\"#myThumbnailModal\">\n                      <img src=\"http://placehold.it/75x75\" alt=\"http://placehold.it/800x600\" />\n                    </a>\n                  </li>\n                  <li class=\"span2\">\n                    <a class=\"thumbnail\" data-toggle=\"modal\" href=\"#myThumbnailModal\">\n                      <img src=\"http://placehold.it/75x75\" alt=\"http://placehold.it/800x600\" />\n                    </a>\n                  </li>\n                </ul>\n            </div>\n  </div>\n</div>\n\n          </section>\n        </div>\n      </div>\n      <div class=\"row\">\n        <div id=\"footer\" class=\"span12 ch\"><ul class=\"menu_footer\">\n          <li><a href=\"acercade.html\">Acerca de</a></li>\n          <li><a href=\"desarrolladores.html\">Desarrolladores</a></li>\n          <li><a href=\"privacidad.html\">Privacidad</a></li>\n          <li><a href=\"condiciones.html\">Condiciones</a></li>\n          <li><a href=\"ayuda.html\">Ayuda</a></li>          \n        </ul>\n\n        </div>\n      </div>\n      </div>\n\n<div class=\"modal fade\" id=\"myThumbnailModal\" style=\"display:none;padding:5px 5px 0 5px;\">\n    <img src=\"\" width=\"600\" height=\"400\" alt=\"\" title=\"\" />\n</div>    \n        <!--[if lt IE 7]>\n            <p class=\"chromeframe\">You are using an outdated browser. <a href=\"http://browsehappy.com/\">Upgrade your browser today</a> or <a href=\"http://www.google.com/chromeframe/?redirect=true\">install Google Chrome Frame</a> to better experience this site.</p>\n        <![endif]-->\n\n        <!-- Add your site or application content here -->\n\n        <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js\"></script>\n        <script>window.jQuery || document.write('<script src=\"scripts/vendor/jquery.min.js\"><\\/script>')</script>\n        \n        \n\n        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->\n        <script>\n            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];\n            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];\n            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';\n            s.parentNode.insertBefore(g,s)}(document,'script'));\n        </script>\n    \n    <!-- build:js scripts/plugins.js -->\n    <script src=\"scripts/vendor/bootstrap/bootstrap-affix.js\"></script>\n    <script src=\"scripts/vendor/bootstrap/bootstrap-alert.js\"></script>\n    <script src=\"scripts/vendor/bootstrap/bootstrap-dropdown.js\"></script>\n    <script src=\"scripts/vendor/bootstrap/bootstrap-tooltip.js\"></script>\n    <script src=\"scripts/vendor/bootstrap/bootstrap-modal.js\"></script>\n    <script src=\"scripts/vendor/bootstrap/bootstrap-transition.js\"></script>\n    <script src=\"scripts/vendor/bootstrap/bootstrap-button.js\"></script>\n    <script src=\"scripts/vendor/bootstrap/bootstrap-popover.js\"></script>\n    <script src=\"scripts/vendor/bootstrap/bootstrap-typeahead.js\"></script>\n    <script src=\"scripts/vendor/bootstrap/bootstrap-carousel.js\"></script>\n    <script src=\"scripts/vendor/bootstrap/bootstrap-scrollspy.js\"></script>\n    <script src=\"scripts/vendor/bootstrap/bootstrap-collapse.js\"></script>\n    <script src=\"scripts/vendor/bootstrap/bootstrap-tab.js\"></script>\n    <!-- endbuild -->\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js\"></script>\n\n    <!-- build:js scripts/amd-app.js -->\n    <script data-main=\"scripts/main\" src=\"scripts/vendor/require.js\"></script>\n    <!-- endbuild -->\n\n</body>\n</html>\n",
+			"file": "app/index.html",
+			"file_size": 21418,
+			"file_write_time": 1353614570000000,
+			"settings":
+			{
+				"buffer_size": 21401,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/main.scss",
+			"settings":
+			{
+				"buffer_size": 6837,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/compass_twitter_bootstrap/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 9664,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/CHROME.sublime-build",
+	"command_palette":
+	{
+		"height": 272.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"con",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Disable Package"
+			],
+			[
+				"sni",
+				"Snippet: img"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"html",
+				"HTML: Wrap Selection With Tag"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 237.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/dist/styles/aef2664a.main.css",
+		"/home/knx/Downloads/a.html",
+		"/home/knx/dev/mproy/app/styles/compass_twitter_bootstrap/_layouts.scss",
+		"/home/knx/dev/mproy/app/styles/compass_twitter_bootstrap/_grid.scss",
+		"/home/knx/dev/mproy/app/styles/compass_twitter_bootstrap/_scaffolding.scss",
+		"/home/knx/dev/mproy/app/styles/_compass_twitter_bootstrap.scss",
+		"/home/knx/tmp/untitled.html",
+		"/home/knx/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/knx/dev/mproy/mproy.sublime-project",
+		"/home/knx/dev/mproy/app/scripts/main.js",
+		"/home/knx/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/knx/dev/mproy/.editorconfig",
+		"/home/knx/dev/mproy/app/index.html",
+		"/home/knx/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/knx/.config/sublime-text-2/Packages/Tag/Tag Package.sublime-settings",
+		"/home/knx/.config/sublime-text-2/Packages/User/Tag Package.sublime-settings",
+		"/home/knx/dev/mproy/app/styles/recipes/shape/polygon/_triangle.scss",
+		"/home/knx/dev/mproy/app/styles/compass_twitter_bootstrap/_variables.scss",
+		"/home/knx/.config/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/knx/dev/mproy/app/styles/compass_twitter_bootstrap/_font-awesome.scss",
+		"/home/knx/dev/mproy/app/styles/recipes/_media-queries.scss",
+		"/home/knx/dev/dotfiles/.scripts/youtubetodvd_fromlist.sh",
+		"/home/knx/dev/mproy/app/scripts/dropkick.js",
+		"/home/knx/dev/mproy/app/scripts/app.js",
+		"/home/knx/dev/mproy/app/styles/dropkick.css",
+		"/home/knx/dev/mproy/app/styles/main.scss",
+		"/home/knx/dev/mproy/dist/styles/main.scss",
+		"/home/knx/dev/mproy/dist/index.html",
+		"/home/knx/dev/.compass.rb",
+		"/home/knx/Peliculas/youtubetodvd.sh",
+		"/home/knx/dev/app/styles/main.scss",
+		"/home/knx/dev/app/index.html",
+		"/home/knx/dev/Gruntfile.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/71_P2/calcularMultiplicador.sh",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/notas_parciales_P2.txt",
+		"/home/knx/Downloads/BORRAME/Juego de la vida/index.html",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/71_P2/w3c-validator.py",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/71_P2/calcularNota.py",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/71_P2/resultados_totales.txt",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/factorial/include/calculador.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/factorial/include/index.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/5/html/index.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/5/html/lecture0.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/5/templates/footer.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/5/html/lecture1.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/5/templates/header.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/5/html/lectures.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/5/includes/helpers.php",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/1_AltaDisponibilidadConHeartbeat/dist/installheartbeat.sh",
+		"/var/www/html/factorial/include/index.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/cuentas_alumnos_creadas",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/login/login4.php",
+		"/var/www/html/factorial/include/calculador.php",
+		"/var/www/html/factorial/include/server.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/1/index.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/IN510-7X_JuegoDeLaVida/solucion/juego.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPBasico/registrar.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPBasico/google.html",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPBasico/server.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/juego/BurbuGame/index.html",
+		"/var/www/html/EjemplosPHPBasico/registrar.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/juego/BurbuGame/js/Juego.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/juego/BurbuGame/css/estilo.css",
+		"/home/knx/as.sh",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/juego/src/persona_adv.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/juego/BurbuGame/js/Funcionlidad_Juego.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/parametros",
+		"/usr/bin/w3c-validator.py",
+		"/home/knx/Documents/tmp/CREANDOCUENTAS",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/froshims/froshims1.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/froshims/froshims0.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/froshims/register0.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/froshims/register1.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/login/login1.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/login/login2.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/0/index.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/mvc/0/lecture0.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Php/EjemplosPHPAdv/login/home.php",
+		"/home/knx/Documents/tmp/test.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/1_AltaDisponibilidadConHeartbeat/include/installheartbeat.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/1_AltaDisponibilidadConHeartbeat/ha.d/haresources",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/1_AltaDisponibilidadConHeartbeat/ha.d/harc",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/1_AltaDisponibilidadConHeartbeat/ha.d/authkeys",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/1_AltaDisponibilidadConHeartbeat/ha.d/ha.cf",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/Implementando_Java_Remote_Method_Invocation/dist/upserver.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/Implementando_Java_Remote_Method_Invocation/dist/upclient.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/1_AltaDisponibilidadConHeartbeat/installheartbeat.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/biblioteca/SIS702L/BIBLIOGRAFÍA",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/dist/Client.java",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/dist/Hello.java",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/dist/Server.java",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/dist/upserver.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/practicas/dist/upclient.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/biblioteca/SIS702L/8-DEFINICION_DE_INTERFACES/Tarea 5: Callback-Corba.txt",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/sharefolder/javarmi/upclient.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/sharefolder/javarmi/upserver.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/sharefolder/javarmi/Hello.java",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/sharefolder/javarmi/Client.java",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/sharefolder/javarmi/Server.java",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/persona_adv.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/persona_adv.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/persona.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/myrefs.bib",
+		"/home/knx/Downloads/calculadora_v2.0/calculadora.js",
+		"/home/knx/Downloads/calculadora_v2.0/calculadora.html",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/installheartbeat",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/revisar.txt",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/sharefolder/install_java_alternatives.sh",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/sharefolder/bp",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/experimentos/javarmi/Server.java",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/experimentos/javarmi/Hello.java",
+		"/home/knx/Documents/RAMOS2012/SistemasDistribuidos/.tmp1.txt",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/index.html",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/persona.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/index2.html",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/persona_module.js",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/evaluaciones/ejemplo_calculadora_js-php/src/index.html~",
+		"/home/knx/Documents/servel/RAW.txt",
+		"/home/knx/Documents/servel/URLS.txt",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/ejemplos/PHP/persona.php",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/Diapo_JS1/index.html",
+		"/home/knx/Documents/RAMOS2012/TallerDesarrolloWeb/INACAP/index.html",
+		"/home/knx/Documents/tem/src/parpadear.html",
+		"/home/knx/Documents/tem/src/form1.html",
+		"/home/knx/Documents/tem/src/popup.html",
+		"/home/knx/Documents/tem/src/javascript.html",
+		"/home/knx/Documents/tem/src/form7.html",
+		"/home/knx/Documents/tem/src/procesar.php"
+	],
+	"find":
+	{
+		"height": 49.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"50px",
+			"ss",
+			"menu_footer",
+			"btnInfoBackground",
+			"red",
+			"baby_bear",
+			"dot",
+			"h1",
+			"wrap",
+			"#3987CC",
+			"services_txt_box",
+			"border",
+			"autocomple",
+			"50006",
+			"accounts",
+			"class",
+			"container",
+			"\" ",
+			"html",
+			".meta",
+			"timeago",
+			"chat",
+			"icon_area",
+			";\n",
+			"navbarVerticalAlign",
+			"alig",
+			"center",
+			"40px",
+			"ima",
+			"box",
+			"$verde_nice",
+			"",
+			"",
+			"/usr/java/default/",
+			"visual-hack-left",
+			"rgb",
+			"body",
+			"main-image",
+			"ir",
+			"bloque_icologin",
+			"red",
+			"Login",
+			"FEO",
+			";\n",
+			"width",
+			"#C74C38",
+			"#118898",
+			"http://heathlife.co.uk/",
+			"width",
+			"haches",
+			"asss",
+			"html5: ",
+			": ",
+			" ",
+			"html5:\nhtml5",
+			":\n",
+			"doctype"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"stream",
+			"",
+			"/usr/java/latest/",
+			"container_principal",
+			"$naranja_nice",
+			"$verde_nice",
+			"./"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 884,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								884,
+								884
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/knx/.config/sublime-text-2/Packages/ZenCoding/zen-coding.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 1226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1070,
+								1070
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/scripts/dropkick.js",
+					"settings":
+					{
+						"buffer_size": 10884,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10884,
+								10884
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5587.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/scripts/app.js",
+					"settings":
+					{
+						"buffer_size": 63,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/styles/dropkick.css",
+					"settings":
+					{
+						"buffer_size": 6373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1282,
+								1282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 391.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/styles/compass_twitter_bootstrap/_buttons.scss",
+					"settings":
+					{
+						"buffer_size": 4874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3731,
+								3731
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1764.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/index.html",
+					"settings":
+					{
+						"buffer_size": 21401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								426
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"zen_abbrev_cache":
+							[
+								"ul#menu_footer>li*5",
+								"<ul id=\"menu_footer\">\n	<li>${1001}</li>\n	<li>${1002}</li>\n	<li>${1003}</li>\n	<li>${1004}</li>\n	<li>${1005:$SELECTION}</li>\n</ul>"
+							]
+						},
+						"translation.x": 0.0,
+						"translation.y": 294.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/styles/main.scss",
+					"settings":
+					{
+						"buffer_size": 6837,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								688,
+								688
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 78.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/styles/compass_twitter_bootstrap/_variables.scss",
+					"settings":
+					{
+						"buffer_size": 9664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2612,
+								2612
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 795.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.csslint_result_view":
+	{
+		"height": 160.0
+	},
+	"output.exec":
+	{
+		"height": 134.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"app/styles/main.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 333.0,
+	"status_bar_visible": false
+}
