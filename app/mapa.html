@@ -29,13 +29,17 @@
           }  
         </style> 
          <script type="text/javascript">
-            $('#navbar').scrollspy();  
-            $('[data-spy="scroll"]').each(function () {  
-              var $spy = $(this).scrollspy('refresh')  
-            });  
+            $('#navbar').scrollspy();
+            $('[data-spy="scroll"]').each(function() {
+              var $spy = $(this).scrollspy('refresh')
+            });
          </script>
 
          <!-- end scroll-->
+         <!-- tab resultado-->
+         <script type="text/javascript">
+            $('#TabResultado a').click(function (e) {e.preventDefault();$(this).tab('show');})
+         </script>
 
     </head>
     <body>
@@ -68,225 +72,41 @@
                       <article class="item comment clearfix">
 
                         <div class="content">
-                          <a href="/destacado/rolls" class="user_link" title="Rolls">Rolls</a>
-                          <div id="telefono"> 
-                            <p>
-                                Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
-                            </p>
-                          </div>
-                          <div id="direccion">
-                              <div id="telefono"> 
+                                               
+                          <ul class="nav nav-tabs" id="TabResultado">
+                            <li><a href="#telefono" data-toggle="tab"><img class="img-circle "><i class="icon-search"></i></a></li>
+                            <li><a href="#direccion" data-toggle="tab"><img class="img-circle"><i class="icon-search"></i></a></li>
+                            <li><a href="#categoria" data-toggle="tab"><img class="img-circle"><i class="icon-search"></i></a></li>
+                          </ul>
+                          <div class="tab-content">
+                           
+                            <div class="tab-pane active" id="telefono"> 
                                 <p>
-                                   Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
+                                   Dsujhyt thgpor ej las manites otun wetsland of the great al gor therr
                                 </p>
-                              </div>
-                          </div>
-
-                          <div id="categoria">
-                              <div id="telefono"> 
+                            </div>
+                            
+                            <div class="tab-pane" id="direccion">
                                 <p>
-                                   Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
+                                   Dsujhyt thgd h jsjss sanbale tud der fot quie poetsland of the great al gor therr
                                 </p>
-                              </div>
-                          </div>
+                            </div>
 
-                         <div class="servicios">
+                            <div class="tab-pane" id="categoria">
+                                <p>
+                                   Dsujhyt thgd t quie por ej las manites otun wetsland of the great al gor therr
+                                </p>
+                            </div>
+
+                          </div>
+                        <!-- <div class="servicios">
                             <div class="icons"><img src="..." class="img-circle"></div>
                             <div class="icons"><img src="..." class="img-circle"></div>
                             <div class="icons"><img src="..." class="img-circle"></div>
                             <div class="icons"><img src="..." class="img-circle"></div>
                           </div>
-                        </div>
+                        </div>-->
                       </article>
-                                            <article class="item comment clearfix">
-
-                        <div class="content">
-                          <a href="/destacado/rolls" class="user_link" title="Rolls">Rolls</a>
-                          <p>
-                            Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
-                          </p>
-                          <div class="servicios">
-                            <div class="icons-visa"></div>
-                            <div class="icons-wifi"></div>
-                            <div class="icons-nofumar"></div>
-                            <div class="icons-estacionamiento"></div>
-                          </div>
-
-                        </div>
-                      </article>
-                                            <article class="item comment clearfix">
-
-                        <div class="content">
-                          <a href="/destacado/rolls" class="user_link" title="Rolls">Rolls</a>
-                          <p>
-                            Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
-                          </p>
-                          <div class="servicios">
-                            <div class="icons-visa"></div>
-                            <div class="icons-wifi"></div>
-                            <div class="icons-nofumar"></div>
-                            <div class="icons-estacionamiento"></div>
-                          </div>
-
-                        </div>
-                      </article>
-                                            <article class="item comment clearfix">
-
-                        <div class="content">
-                          <a href="/destacado/rolls" class="user_link" title="Rolls">Rolls</a>
-                          <p>
-                            Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
-                          </p>
-                          <div class="servicios">
-                            <div class="icons-visa"></div>
-                            <div class="icons-wifi"></div>
-                            <div class="icons-nofumar"></div>
-                            <div class="icons-estacionamiento"></div>
-                          </div>
-
-                        </div>
-                      </article>
-                                            <article class="item comment clearfix">
-
-                        <div class="content">
-                          <a href="/destacado/rolls" class="user_link" title="Rolls">Rolls</a>
-                          <p>
-                            Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
-                          </p>
-                          <div class="servicios">
-                            <div class="icons-visa"></div>
-                            <div class="icons-wifi"></div>
-                            <div class="icons-nofumar"></div>
-                            <div class="icons-estacionamiento"></div>
-                          </div>
-
-                        </div>
-                      </article>
-                                            <article class="item comment clearfix">
-
-                        <div class="content">
-                          <a href="/destacado/rolls" class="user_link" title="Rolls">Rolls</a>
-                          <p>
-                            Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
-                          </p>
-                          <div class="servicios">
-                            <div class="icons-visa"></div>
-                            <div class="icons-wifi"></div>
-                            <div class="icons-nofumar"></div>
-                            <div class="icons-estacionamiento"></div>
-                          </div>
-
-                        </div>
-                      </article>
-                                            <article class="item comment clearfix">
-
-                        <div class="content">
-                          <a href="/destacado/rolls" class="user_link" title="Rolls">Rolls</a>
-                          <p>
-                            Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
-                          </p>
- 
-
-                        </div>
-                      </article>
-                                            <article class="item comment clearfix">
-
-                        <div class="content">
-                          <a href="/destacado/rolls" class="user_link" title="Rolls">Rolls</a>
-                          <p>
-                            Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
-                          </p>
-                          <div class="servicios">
-                            <div class="icons-visa"></div>
-                            <div class="icons-wifi"></div>
-                            <div class="icons-nofumar"></div>
-                            <div class="icons-estacionamiento"></div>
-                          </div>
-
-                        </div>
-                      </article>
-                                            <article class="item comment clearfix">
-
-                        <div class="content">
-                          <a href="/destacado/rolls" class="user_link" title="Rolls">Rolls</a>
-                          <p>
-                            Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
-                          </p>
-                          <div class="servicios">
-                            <div class="icons-visa"></div>
-                            <div class="icons-wifi"></div>
-                            <div class="icons-nofumar"></div>
-                            <div class="icons-estacionamiento"></div>
-                          </div>
-
-                        </div>
-                      </article>
-                                            <article class="item comment clearfix">
-
-                        <div class="content">
-                          <a href="/destacado/rolls" class="user_link" title="Rolls">Rolls</a>
-                          <p>
-                            Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
-                          </p>
-                          <div class="servicios">
-                            <div class="icons-visa"></div>
-                            <div class="icons-wifi"></div>
-                            <div class="icons-nofumar"></div>
-                            <div class="icons-estacionamiento"></div>
-                          </div>
-
-                        </div>
-                      </article>
-                                            <article class="item comment clearfix">
-
-                        <div class="content">
-                          <a href="/destacado/rolls" class="user_link" title="Rolls">Rolls</a>
-                          <p>
-                            Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
-                          </p>
-                          <div class="servicios">
-                            <div class="icons-visa"></div>
-                            <div class="icons-wifi"></div>
-                            <div class="icons-nofumar"></div>
-                            <div class="icons-estacionamiento"></div>
-                          </div>
-
-                        </div>
-                      </article>
-                                            <article class="item comment clearfix">
-
-                        <div class="content">
-                          <a href="/destacado/rolls" class="user_link" title="Rolls">Rolls</a>
-                          <p>
-                            Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
-                          </p>
-                          <div class="servicios">
-                            <div class="icons-visa"></div>
-                            <div class="icons-wifi"></div>
-                            <div class="icons-nofumar"></div>
-                            <div class="icons-estacionamiento"></div>
-                          </div>
-
-                        </div>
-                      </article>
-                                            <article class="item comment clearfix">
-
-                        <div class="content">
-                          <a href="/destacado/rolls" class="user_link" title="Rolls">Rolls</a>
-                          <p>
-                            Dsujhyt thgd h jsjss sanbale tud der fot quie por ej las manites otun wetsland of the great al gor therr
-                          </p>
-                          <div class="servicios">
-                            <div class="icons-visa"></div>
-                            <div class="icons-wifi"></div>
-                            <div class="icons-nofumar"></div>
-                            <div class="icons-estacionamiento"></div>
-                          </div>
-
-                        </div>
-                      </article>
-                      
-     
                   <!-- TWITT END -->                          
                 </div>
               </div>
