@@ -109,6 +109,11 @@
 							}
 					);
 					
+
+
+
+
+
 					google.maps.event.addListener(_instance, "center_changed",
 							
 							function () {
@@ -171,6 +176,11 @@
 					position: new google.maps.LatLng(lat, lng),
 					map: _instance
 				});
+
+			   google.maps.event.addListener(marker, 'click', function() {
+			   	   $("#disqus_thread").fadeOut("slow");
+			       $("#disqus_thread").fadeIn("slow");
+			    }); 
 				
 				if (label) {
 					

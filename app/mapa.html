@@ -117,8 +117,31 @@
 
         <div class="span8">
         <!--Body content-->
-          <google-map center="center" draggable="true" zoom="zoom" markers="markers" mark-click="true" style="height: 400px" fit="true" refresh="true"></google-map>
+          <google-map center="center" draggable="true" zoom="zoom" markers="markers"  style="height: 400px" fit="true" refresh="true"></google-map>
           
+
+          <div id="disqus_thread" style="display: none;"></div>
+
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'saludmap'; // required: replace example with your forum shortname
+
+            // The following are highly recommended additional parameters. Remove the slashes in front to use.
+            var disqus_identifier = 'javascript';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+
         </div>
       </div>
       <div class="row">
@@ -151,7 +174,34 @@
     <!-- DATA RESULTADOS. --><script type="text/javascript">
       /*var data= <?php echo $resultadoJSON; ?>;*/
 
+var data={
+  resultados: [
+{latitude: -18.482525,longitude: -70.312859,nombre: 'Hospital Dr. Juan Noé Crevanni (Arica)',direccion: '18 de Septiembre   1000, Arica, Chile',telefono: '058-257562',categoria: 'EMAYC', id: 1},
+{latitude: -18.439054,longitude: -70.290201,nombre: 'Centro de Salud Familiar Dr. Amador Neghme de Arica',direccion: 'Cancha Rayada   4149, Arica, Chile',telefono: '800500101',categoria: 'CESFAM', id: 2},
+{latitude: -18.473289,longitude: -70.306759,nombre: 'Centro de Salud Familiar Iris Véliz Hume (Ex Oriente)',direccion: 'Barros Luco   2699 (esquina Las Torres), Arica, Chile',telefono: '800500102',categoria: 'CESFAM', id: 3},
+{latitude: -18.219531,longitude: -69.534349,nombre: 'Centro de Salud Familiar Putre',direccion: 'Baquedano   261, Putre, Chile',telefono: '058-200261',categoria: 'CESFAM', id: 4},
+{latitude: -18.480446,longitude: -70.308467,nombre: 'Centro de Salud Familiar Remigio Sapunar',direccion: 'Silva Arriagada   1020, Arica, Chile',telefono: '058-204306',categoria: 'CESFAM', id: 5},
+{latitude: -18.47329,longitude: -70.306759,nombre: 'Centro Comunitario de Salud Familiar Dr. Miguel Massa',direccion: 'Francisco Urzua   4224, Loteo Pob. Las Vizcachas, Arica, Chile',telefono: '058-204811',categoria: 'CECOF', id: 6},
+{latitude: -18.490589,longitude: -70.311914,nombre: 'Centro Comunitario de Salud Familiar Cerro La Cruz',direccion: 'Rafael Sotomayor   1496, Arica, Chile',telefono: '058-204370',categoria: 'CECOF', id: 7},
+{latitude: -20.215454,longitude: -70.137646,nombre: 'Clínica Dental Móvil Simple. Pat. RW6740 (Iquique)',direccion: 'Thompson   1846, Iquique, Chile',telefono: '057-406100',categoria: 'CDM', id: 8},
+{latitude: -20.215159,longitude: -70.152841,nombre: 'Centro de Rehabilitación Móvil (Iquique)',direccion: 'Anibal Pinto   815, Iquique, Chile',telefono: '57-409536',categoria: 'CCONV', id: 9},
+{latitude: -20.216819,longitude: -70.144674,nombre: 'Vacunatorio Sonrisa Infantil',direccion: 'Anibal Pinto   1011 Of. 9, Iquique, Chile',telefono: '57-420708',categoria: 'VACU', id: 10},
+{latitude: -20.218673,longitude: -70.154868,nombre: 'Vacunatorio Vacumed',direccion: 'Avda. Arturo Prat   1170, Iquique, Chile',telefono: '57-514121',categoria: 'VACU', id: 11},
+{latitude: -20.22075,longitude: -70.14851,nombre: 'Centro de Salud Familiar Cirujano Aguirre',direccion: 'Pasaje 3 Pintados   S/N (esquina Avda. Pedro Prado), Iquique, Chile',telefono: '800500105',categoria: 'CESFAM', id: 12},
+{latitude: -20.22075,longitude: -70.14851,nombre: 'Posta de Salud Rural San Marcos',direccion: 'Localidad de San Marcos, Iquique, Chile',telefono: '09-7144946',categoria: 'PSR', id: 16},
+{latitude: -20.22075,longitude: -70.14851,nombre: 'SAPU-Cirujano Aguirre',direccion: 'Pasaje 3 Pintados   S/N (esquina Avda. Pedro Prado), Iquique, Chile',telefono: '057-573568',categoria: 'SAPU', id: 20},
+{latitude: -20.241684,longitude: -70.134124,nombre: 'Centro de Salud Familiar Cirujano Guzmán',direccion: 'Avda. Pedro Prado   2763, Iquique, Chile',telefono: '800500106',categoria: 'CESFAM', id: 13},
+{latitude: -20.259001,longitude: -69.7845,nombre: 'Consultorio Pozo Almonte',direccion: 'Aldunate   S/N (Esquina Comercio), Pozo Almonte, Chile',telefono: '057-761214',categoria: 'CSR', id: 14},
+{latitude: -20.492277,longitude: -69.328206,nombre: 'Centro de Salud Familiar Dr. Juán Marquez Vismarra',direccion: 'Balmaceda   S/N, Pica, Chile',telefono: '057-741306',categoria: 'CESFAM', id: 15},
+{latitude: -20.22075,longitude: -70.14851,nombre: 'Centro de Salud Familiar Cirujano Aguirre',direccion: 'Pasaje 3 Pintados   S/N (esquina Avda. Pedro Prado), Iquique, Chile',telefono: '800500105',categoria: 'CESFAM', id: 12},
+{latitude: -20.22075,longitude: -70.14851,nombre: 'Posta de Salud Rural San Marcos',direccion: 'Localidad de San Marcos, Iquique, Chile',telefono: '09-7144946',categoria: 'PSR', id: 16},
+{latitude: -20.22075,longitude: -70.14851,nombre: 'SAPU-Cirujano Aguirre',direccion: 'Pasaje 3 Pintados   S/N (esquina Avda. Pedro Prado), Iquique, Chile',telefono: '057-573568',categoria: 'SAPU', id: 20},
+{latitude: -20.213089,longitude: -70.150366,nombre: 'COSAM Infanto-Juvenil de Iquique',direccion: 'Serrano   493, Iquique, Chile',telefono: '057-2613668',categoria: 'COSAM', id: 17},
+{latitude: -20.278979,longitude: -70.104139,nombre: 'COSAM Enrique París',direccion: 'Santa Rosa   S/N (Alto Hospicio), Alto Hospicio, Chile',telefono: '057-3079321',categoria: 'COSAM', id: 18},
+{latitude: -20.288194,longitude: -70.103824,nombre: 'Centro Comunitario de Salud Familiar El Boro',direccion: 'Calle 4   S/N (entre Avda. 14 y Calle 3, Sector El Boro), Alto Hospicio, Chile',telefono: '057-406750',categoria: 'CECOF', id: 19},
+]};
 
+/*
       var data = {
       resultados:[
         {
@@ -191,7 +241,10 @@
           ,id: 04
         }
       ]
-      };
+      };*/
+
+
+
     </script>
     
     <!-- build:js scripts/plugins.js -->
