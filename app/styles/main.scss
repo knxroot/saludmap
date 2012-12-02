@@ -3,16 +3,21 @@
 /* http://css3generator.com
 http://compass-recipes.moox.fr */
 
-$azulgradiente1:#009EFF;
+$azulgradiente1:#B24B2C;
 $azulgradiente2:#01BDFD;
 $ancho_shadow: 6px;
 $radio_esquina: 5px;
 $label_color:#fff;
-$general_text_color: #666;
+$general_text_color: #5E0505;
+$color_footer: #A79780;
+$necesidad_box:#A79780;
+$container_m:#CCD1A5;
+
 
 body{
   color: $general_text_color;
-  background-image: url("../images/fondo.png");
+  background-color: #D4DABA;
+/*  background-image: url("../images/fondo.png");*/
 }
 /*Estlos header superior */
 header{
@@ -34,10 +39,15 @@ header{
   @include border-bottom-radius($radio_esquina);
 
 }
+.container{
+    background-color: $container_m;
+}
 .container_menu{
 	height: 47px;
   .container{
+
     position: relative;
+
     .right{
       position: absolute;
       right: 0px;
@@ -52,8 +62,10 @@ header{
 /*Gradiente azul*/
 .g_azul{
   background: $azulgradiente1;
+  /*
   @include background-image(linear-gradient($azulgradiente1, $azulgradiente2));
   @include filter-gradient($azulgradiente1, $azulgradiente2, 0);
+  */
 }
 .right{
   @include float(right);
@@ -86,9 +98,10 @@ header{
 
 /*Necesidades box*/
 .necesidad_box{
-  background: {
+  background-color: $necesidad_box;
+/*background: {
     image: url("../images/dot_background.png");
-    repeat: repeat;};
+    repeat: repeat;};*/
   padding-top: 1em;
   padding-bottom: 1em;
   margin-bottom: 2em;
@@ -125,13 +138,13 @@ header{
   display: inline-block;
 }
 
-@import "recipes/shape";
+/*@import "recipes/shape";
 .triangulo
 {
   @include triangle(bottom,1em, half, #fff);
   position: absolute;
   margin-left: 18px;
-}
+}*/
 
 
 /* .g_azul */
@@ -141,9 +154,9 @@ header{
 
 }
 
-.bplomo{
+/*.bplomo{
   border: 2px solid #eee;
-}
+}*/
 
 #livebox{
   //height: 380px;
@@ -354,8 +367,8 @@ $ancho_local_title: 312px;
 }
 
 #footer{
-    background-color: #dedede;
-    padding: 5px;
+    background-color: $color_footer;
+  
     margin-top: 20px;
 }
 .menu_footer{
@@ -370,6 +383,7 @@ $ancho_local_title: 312px;
       margin-right: 5px;
       color: $general_text_color;
       &:hover {
+
         color: #3987cc;
       }
     }
@@ -497,7 +511,7 @@ $ancho_local_title: 312px;
 
 $color_result: #E9E9E9;
 $color_resulth: #BCBCBC;
-$color_tab_act: #3299BB;
+$color_tab_act: #B24B2C;
 
 .cresultado{
   background-color: $color_result;
@@ -515,3 +529,8 @@ $color_tab_act: #3299BB;
   .nav-tabs> li > a:hover{
     background-color: lighten($color_tab_act, 10%) !important;
   }
+ .scrollspy {  
+    height: 325px;  
+    overflow: auto;  
+    position: relative;  
+ }  
