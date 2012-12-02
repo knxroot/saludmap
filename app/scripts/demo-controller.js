@@ -37,8 +37,8 @@ function DemoController($scope, $location) {
     $scope.longitude = null;
 
     $scope.zoom = 4;
-
     $scope.markers = data.resultados;
+
 
     $scope.markerLat = null;
     $scope.markerLng = null;
@@ -63,6 +63,7 @@ function DemoController($scope, $location) {
                     lat: position.coords.latitude,
                     lng: position.coords.longitude
                 };
+                $scope.zoom = 12;                
 
                 $scope.$apply();
             }, function() {
@@ -71,7 +72,7 @@ function DemoController($scope, $location) {
 
         }
     };
-
+$scope.resultados=data.resultados;
 
 }
 

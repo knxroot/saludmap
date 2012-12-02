@@ -483,3 +483,35 @@ $ancho_local_title: 312px;
   @include background-clip(padding-box);
 }
 
+
+.angular-google-map {
+  height: 400px;
+  border: 1px #ccc solid;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.angular-google-map img {
+  max-width: inherit !important;
+}
+
+$color_result: #E9E9E9;
+$color_resulth: #BCBCBC;
+$color_tab_act: #3299BB;
+
+.cresultado{
+  background-color: $color_result;
+  &:hover{
+    background-color: $color_resulth;
+  }
+}
+
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover{
+  background-color: $color_tab_act !important;
+
+}
+
+  .nav-tabs> li > a:hover{
+    background-color: lighten($color_tab_act, 10%) !important;
+  }

@@ -51,9 +51,17 @@
         <div class="span12 bplomo necesidad_box">
             <div class="ch">
               <div class="input-append">
-                <input class="span2" id="appendedInputButtons" type="text">
-                <button class="btn" type="button">Busqueda</button>
-                <button class="btn" type="button">Aquí Estoy</button>
+                <form action="consultar.php" method="GET">
+                  <input name="palabra" class="span2" id="appendedInputButtons" type="text">
+                  <input class="btn"  value="Busqueda" type="submit"/>
+                  <button class="btn" ng-click="findMe()"  type="button">
+                        <i class="icon-screenshot"></i>
+                        Aquí Estoy
+                      </button>
+                </form>
+
+
+
               </div>
             </div>
 
@@ -69,43 +77,42 @@
                 <div id="resultados">
                   <div data-spy="scroll" data-target="#navbarspy" data-offset="50" class="scrollspy"> 
                   <!-- TWITT START -->
-                      <article class="item comment clearfix">
+    <li ng-repeat="phone in phones">
+      {{phone.name}}
+      <p>{{phone.snippet}}</p>
+    </li>
+
+
+                      <article class="item comment clearfix cresultado" ng-repeat="resultado in resultados">
 
                         <div class="content">
                                                
                           <ul class="nav nav-tabs" id="TabResultado">
-                            <li><a href="#telefono" data-toggle="tab"><img class="icon-book"><i class="icon-search"></i></a></li>
-                            <li><a href="#direccion" data-toggle="tab"><img class="img-circle"><i class="icon-home"></i></a></li>
-                            <li><a href="#categoria" data-toggle="tab"><img class="img-circle"><i class="icon-list"></i></a></li>
+                            <li><a href="#telefono{{resultado.id}}" data-toggle="tab"><img class="icon-book"><i class="icon-search"></i></a></li>
+                            <li><a href="#direccion{{resultado.id}}" data-toggle="tab"><img class="img-circle"><i class="icon-home"></i></a></li>
+                            <li><a href="#categoria{{resultado.id}}" data-toggle="tab"><img class="img-circle"><i class="icon-list"></i></a></li>
                           </ul>
                           <div class="tab-content">
                            
-                            <div class="tab-pane active" id="telefono"> 
+                            <div class="tab-pane active" id="telefono{{resultado.id}}"> 
                                 <p>
-                                   Dsujhyt thgpor ej las manites otun wetsland of the great al gor therr
+                                    {{resultado.telefono}}
                                 </p>
                             </div>
                             
-                            <div class="tab-pane" id="direccion">
+                            <div class="tab-pane" id="direccion{{resultado.id}}">
                                 <p>
-                                   Dsujhyt thgd h jsjss sanbale tud der fot quie poetsland of the great al gor therr
+                                   {{resultado.direccion}}
                                 </p>
                             </div>
 
-                            <div class="tab-pane" id="categoria">
+                            <div class="tab-pane" id="categoria{{resultado.id}}">
                                 <p>
-                                   Dsujhyt thgd t quie por ej las manites otun wetsland of the great al gor therr
+                                  {{resultado.categoria}}
                                 </p>
                             </div>
 
                           </div>
-                        <!-- <div class="servicios">
-                            <div class="icons"><img src="..." class="img-circle"></div>
-                            <div class="icons"><img src="..." class="img-circle"></div>
-                            <div class="icons"><img src="..." class="img-circle"></div>
-                            <div class="icons"><img src="..." class="img-circle"></div>
-                          </div>
-                        </div>-->
                       </article>
                   <!-- TWITT END -->                          
                 </div>
@@ -116,8 +123,8 @@
         
 
         <div class="span8">
-        <!--Body content-->
-          <google-map center="center" draggable="true" zoom="zoom" markers="markers" mark-click="true" style="height: 400px" fit="true"></google-map>
+        <!--Body content-->AAA
+          <google-map center="center" draggable="true" zoom="zoom" markers="markers" mark-click="true" style="height: 400px" fit="true" refresh="true"></google-map>BBB
           
         </div>
       </div>
@@ -149,6 +156,9 @@
         
 
     <!-- DATA RESULTADOS. --><script type="text/javascript">
+      /*var data= <?php echo $resultadoJSON; ?>;*/
+
+
       var data = {
       resultados:[
         {
@@ -158,6 +168,7 @@
           ,direccion: 'aqui1' 
           ,telefono: '82450300'
           ,categoria: 'categoria1'
+          ,id: 01
         },
         {
           latitude: -10
@@ -166,6 +177,7 @@
           ,direccion: 'aqui2' 
           ,telefono: '9000012'
           ,categoria: 'categoria2'
+          ,id: 02
         },
         {
           latitude: -30
@@ -174,6 +186,7 @@
           ,direccion: 'aqui2' 
           ,telefono: '9000012'
           ,categoria: 'categoria2'
+          ,id: 03
         },
         {
           latitude: -40
@@ -182,6 +195,7 @@
           ,direccion: 'aqui2' 
           ,telefono: '9000012'
           ,categoria: 'categoria2'
+          ,id: 04
         }
       ]
       };
