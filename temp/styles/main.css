@@ -6434,7 +6434,7 @@ header {
   clear: both;
   padding: 7px 0;
   position: relative;
-  width: 100%;
+  width: 99%;
 }
 /* line 233, ../../app/styles/main.scss */
 #destacados .item .icon_area, #resultados .item .icon_area {
